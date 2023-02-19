@@ -14,9 +14,7 @@ app.use(bodyParser.json());
 
 mongoose.set('strictQuery', true);
 
-// mongoose.connect('mongodb+srv://thakurgmail_com:1239910@cluster0.z32tm.mongodb.net/Studybase?retryWrites=true&w=majority',{
-//    useNewUrlParser:true 
-// });
+
 mongoose.connect(MONGO_URL_MENTOR,{
    useNewUrlParser:true 
 });
